@@ -1,0 +1,271 @@
+{
+  "as_of": "2026-10-28",
+  "AR": {
+    "currency": "ARS",
+    "items": {
+      "contrib_large": {
+        "rate": 0.204,
+        "label": "Employer social security contributions — large services/commerce employers (SIPA, INSSJP, FNE, family allowances; includes FAL share where applicable)",
+        "source": "https://arca.gob.ar/relaciones-laborales/empleadores/aportes-y-contribuciones.asp",
+        "source2": "https://biblioteca.arca.gob.ar/search/query/adjunto.aspx?p=t%3ARAG%7Cn%3A5907%7Co%3A9%7Ca%3A2026%7Cd%3Aanexo_7793217_1.pdf"
+      },
+      "contrib_other": {
+        "rate": 0.18,
+        "label": "Employer social security contributions — other private employers with MiPyME certificate",
+        "source": "https://arca.gob.ar/relaciones-laborales/empleadores/aportes-y-contribuciones.asp"
+      },
+      "health": {
+        "rate": 0.06,
+        "label": "Employer health-fund (obra social) contribution, Ley 23.660 art. 16",
+        "source": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/62/texact.htm"
+      },
+      "sac_months": {
+        "value": 1,
+        "label": "Aguinaldo (SAC): two instalments, each 50% of the highest monthly pay in the semester ≈ one extra month per year (LCT arts. 121–122)",
+        "source": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm"
+      }
+    }
+  },
+  "CO": {
+    "currency": "COP",
+    "smmlv": {
+      "value": 1750905,
+      "source": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20No.%200159%20DEL%2019%20DE%20FEBRERO%20DE%202026.pdf"
+    },
+    "transport_allowance": {
+      "value": 249095,
+      "label": "Auxilio de transporte (salaries up to 2 SMMLV)",
+      "source": "https://normograma.mintic.gov.co/mintic/compilacion/docs/decreto_1470_2025.htm"
+    },
+    "items": {
+      "health": {
+        "rate": 0.085,
+        "label": "Health (salud), employer share",
+        "exemptible": true,
+        "source": "https://www.vue.gov.co/tramites-y-consultas/orientacion-empleadores-liquidacion-aportes-al-sps"
+      },
+      "pension": {
+        "rate": 0.12,
+        "label": "Pension, employer share",
+        "source": "https://www.vue.gov.co/tramites-y-consultas/orientacion-empleadores-liquidacion-aportes-al-sps"
+      },
+      "arl": {
+        "rate": 0.00522,
+        "label": "Occupational risk (ARL), risk class I",
+        "source": "https://www.vue.gov.co/tramites-y-consultas/orientacion-empleadores-liquidacion-aportes-al-sps"
+      },
+      "caja": {
+        "rate": 0.04,
+        "label": "Family compensation fund (caja de compensación)",
+        "source": "https://www.vue.gov.co/tramites-y-consultas/orientacion-empleadores-liquidacion-aportes-al-sps"
+      },
+      "icbf": {
+        "rate": 0.03,
+        "label": "ICBF payroll levy",
+        "exemptible": true,
+        "source": "https://www.vue.gov.co/tramites-y-consultas/orientacion-empleadores-liquidacion-aportes-al-sps"
+      },
+      "sena": {
+        "rate": 0.02,
+        "label": "SENA payroll levy",
+        "exemptible": true,
+        "source": "https://www.vue.gov.co/tramites-y-consultas/orientacion-empleadores-liquidacion-aportes-al-sps"
+      },
+      "prima": {
+        "rate": 0.0833,
+        "label": "Prima de servicios (one month's salary per year)",
+        "source": "https://www.hklaw.com/en/insights/publications/2025/12/colombia-decreta-aumento-del-salario-minimo-y-auxilio-de-transporte"
+      },
+      "cesantias": {
+        "rate": 0.0833,
+        "label": "Cesantías (severance fund, one month per year)",
+        "source": "https://www.hklaw.com/en/insights/publications/2025/12/colombia-decreta-aumento-del-salario-minimo-y-auxilio-de-transporte"
+      },
+      "int_cesantias": {
+        "rate": 0.01,
+        "label": "Interest on cesantías (12% a year on the cesantías balance ≈ 1% of salary)",
+        "source": "https://www.hklaw.com/en/insights/publications/2025/12/colombia-decreta-aumento-del-salario-minimo-y-auxilio-de-transporte"
+      },
+      "vacaciones": {
+        "rate": 0.0417,
+        "label": "Vacation (15 working days per year)",
+        "source": "https://www.hklaw.com/en/insights/publications/2025/12/colombia-decreta-aumento-del-salario-minimo-y-auxilio-de-transporte"
+      }
+    },
+    "exemption_note": {
+      "label": "Employers that are income-tax-paying legal entities are exempt from health (8.5%), SENA and ICBF contributions for employees earning under 10 SMMLV (Estatuto Tributario art. 114-1).",
+      "source": "https://estatuto.co/114-1"
+    }
+  },
+  "MX": {
+    "currency": "MXN",
+    "uma_daily": {
+      "value": 117.31,
+      "label": "UMA daily value from 1 Feb 2026 (25 UMA cap = 2,932.75/day)",
+      "source": "https://www.cmsconsultores.mx/conocimiento/tablas-isr-cuotas"
+    },
+    "min_wage_daily": {
+      "value": 315.04,
+      "label": "General minimum wage 2026 (ZSMG)",
+      "source": "https://dof.gob.mx/nota_detalle.php?codigo=5775534&fecha=09%2F12%2F2025"
+    },
+    "aguinaldo_days": {
+      "value": 15,
+      "source": "https://www.gloroots.com/blog/employee-benefits-in-mexico"
+    },
+    "vacation_days_year1": {
+      "value": 12,
+      "source": "https://www.gloroots.com/blog/employee-benefits-in-mexico"
+    },
+    "vacation_premium": {
+      "rate": 0.25,
+      "source": "https://www.gloroots.com/blog/employee-benefits-in-mexico"
+    },
+    "imss": {
+      "fixed_quota_uma": 0.204,
+      "excess_over_3uma": 0.011,
+      "cash_benefits": 0.007,
+      "pensioners_medical": 0.0105,
+      "disability_life": 0.0175,
+      "childcare": 0.01,
+      "retiro": 0.02,
+      "infonavit": 0.05,
+      "risk_min": 0.005,
+      "risk_max": 0.15,
+      "source": "https://www.cmsconsultores.mx/conocimiento/tablas-isr-cuotas"
+    },
+    "rcv_2026": {
+      "bands": [
+        [
+          "min_wage",
+          0.0315
+        ],
+        [
+          1.5,
+          0.03676
+        ],
+        [
+          2.0,
+          0.04851
+        ],
+        [
+          2.5,
+          0.05556
+        ],
+        [
+          3.0,
+          0.06026
+        ],
+        [
+          3.5,
+          0.06361
+        ],
+        [
+          4.0,
+          0.06613
+        ],
+        [
+          999,
+          0.07513
+        ]
+      ],
+      "label": "Employer old-age (cesantía y vejez) rate by SBC in UMA, 2026",
+      "source": "https://www.cmsconsultores.mx/conocimiento/tablas-isr-cuotas"
+    },
+    "isn_example": {
+      "rate": 0.03,
+      "label": "State payroll tax (ISN), around 3% in Mexico City",
+      "source": "https://talenthub.glints.com/hiring-guide/latam/mexico/compensation-benefits"
+    }
+  },
+  "BR": {
+    "currency": "BRL",
+    "inss": {
+      "rate": 0.2,
+      "label": "INSS employer contribution (Lei 8.212/1991 art. 22, I)",
+      "source": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributos/contribuicoes-previdenciarias-pj"
+    },
+    "rat": {
+      "options": [
+        0.01,
+        0.02,
+        0.03
+      ],
+      "label": "RAT work-accident rate 1%/2%/3% by activity risk, adjusted by FAP 0.5–2.0 (Lei 8.212 art. 22, II)",
+      "source": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "source2": "https://base.ohub.com.br/rh/conteudos/operacoes-de-rh/folha-de-pagamento/encargos-patronais-inss-patronal-fgts-rat-e-sistema-s"
+    },
+    "terceiros_example": {
+      "rate": 0.058,
+      "label": "Third-party contributions (salário-educação, Sistema S, INCRA, SEBRAE): up to ~5.8%, typical for commerce",
+      "source": "https://www.infinitepay.io/blog/custo-de-funcionario",
+      "source2": "https://base.ohub.com.br/rh/conteudos/operacoes-de-rh/folha-de-pagamento/encargos-patronais-inss-patronal-fgts-rat-e-sistema-s"
+    },
+    "fgts": {
+      "rate": 0.08,
+      "label": "FGTS deposit (Lei 8.036/1990 art. 15), also due on 13th salary and vacation pay",
+      "source": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm",
+      "source2": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/perguntas-frequentes"
+    },
+    "decimo_terceiro": {
+      "months": 1,
+      "label": "13th salary (Lei 4.090/1962)",
+      "source": "https://www.planalto.gov.br/ccivil_03/leis/l4090.htm"
+    },
+    "vacation_bonus": {
+      "rate": 0.3333,
+      "label": "Vacation bonus of at least one-third (Constitution art. 7, XVII)",
+      "source": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    "fgts_fine": {
+      "rate": 0.4,
+      "label": "FGTS fine on dismissal without cause: 40% of FGTS deposits (Lei 8.036 art. 18)",
+      "source": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"
+    }
+  },
+  "CL": {
+    "currency": "CLP",
+    "employer_pension": {
+      "rate": 0.035,
+      "label": "Employer pension contribution (Ley 21.735), Aug 2026–Jul 2027: 0.1% AFP + 0.9% CRP + 2.5% Seguro Social Previsional (includes SIS)",
+      "source": "https://www.spensiones.gob.cl/portal/institucional/594/w3-propertyvalue-9897.html",
+      "source2": "https://www.spensiones.gob.cl/portal/institucional/594/w3-propertyvalue-10906.html"
+    },
+    "cesantia_indef": {
+      "rate": 0.024,
+      "label": "Unemployment insurance, employer, indefinite contract",
+      "source": "https://www.orgdch.org/ltm/seguridad-social-en-chile-resumen-empleadores/"
+    },
+    "cesantia_fixed": {
+      "rate": 0.03,
+      "label": "Unemployment insurance, employer, fixed-term / per-project contract",
+      "source": "https://www.orgdch.org/ltm/seguridad-social-en-chile-resumen-empleadores/"
+    },
+    "ley16744_base": {
+      "rate": 0.009,
+      "label": "Work-accident insurance (Ley 16.744) base rate; an additional rate (0%–3.4%) depends on activity risk and the company's accident record",
+      "source": "https://www.orgdch.org/ltm/seguridad-social-en-chile-resumen-empleadores/"
+    },
+    "tope_afp": {
+      "value": 3678639,
+      "label": "Taxable cap for AFP contributions, 90 UF (Aug 2026)",
+      "source": "https://www.previred.com/wp-content/uploads/2026/09/Indicadores-Previsionales-Previred-Agosto-2026.pdf"
+    },
+    "tope_cesantia": {
+      "value": 5526134,
+      "label": "Taxable cap for unemployment insurance, 135.2 UF (Aug 2026)",
+      "source": "https://www.previred.com/wp-content/uploads/2026/09/Indicadores-Previsionales-Previred-Agosto-2026.pdf"
+    },
+    "ingreso_minimo": {
+      "value": 553553,
+      "label": "Minimum taxable monthly income for dependent workers (Aug 2026)",
+      "source": "https://www.previred.com/wp-content/uploads/2026/09/Indicadores-Previsionales-Previred-Agosto-2026.pdf"
+    },
+    "gratificacion": {
+      "rate": 0.25,
+      "cap_imm_year": 4.75,
+      "label": "Legal gratificación, art. 50 method: 25% of pay, capped at 4.75 minimum monthly incomes a year",
+      "source": "https://www.dt.gob.cl/portal/1626/w3-article-99034.html"
+    }
+  }
+}

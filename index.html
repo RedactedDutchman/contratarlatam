@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-base="/contratarlatam/">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ContratarLATAM — EOR &amp; payroll provider comparison and employer cost calculator for Latin America</title>
+<meta name="description" content="Compare employer-of-record providers for hiring in Argentina, Brazil, Chile, Colombia and Mexico, and estimate total employer cost from cited statutory rates.">
+<link rel="canonical" href="https://redacteddutchman.github.io/contratarlatam/">
+<link rel="alternate" hreflang="en" href="https://redacteddutchman.github.io/contratarlatam/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="ContratarLATAM">
+<meta property="og:title" content="ContratarLATAM — EOR &amp; payroll provider comparison and employer cost calculator for Latin America"><meta property="og:description" content="Compare employer-of-record providers for hiring in Argentina, Brazil, Chile, Colombia and Mexico, and estimate total employer cost from cited statutory rates."><meta property="og:url" content="https://redacteddutchman.github.io/contratarlatam/">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/contratarlatam/assets/css/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "ContratarLATAM", "url": "https://redacteddutchman.github.io/contratarlatam/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "LATAM employer cost estimator", "applicationCategory": "BusinessApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "url": "https://redacteddutchman.github.io/contratarlatam/"}</script>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="/contratarlatam/">Contratar<span>LATAM</span></a><a href="/contratarlatam/providers/">Providers</a><a href="/contratarlatam/countries/">Countries</a><a href="/contratarlatam/compare/">Compare</a><a href="/contratarlatam/guides/">Guides</a><a href="/contratarlatam/newsletter/">Newsletter</a></div></header>
+<section class="hero"><div class="wrap"><h1>Hiring in Argentina, Brazil, Chile, Colombia or Mexico? See what an employee really costs.</h1><p>Free estimator built only from cited statutory rates, plus a sourced comparison of employer-of-record (EOR) providers.</p></div></section>
+<main><div class="wrap">
+<form id="calc" class="card" novalidate>
+<h2 style="margin-top:0">Salary to total employer cost estimator</h2>
+<div class="grid">
+<div><label for="country">Country</label><select id="country" name="country"><option value="AR">Argentina (ARS)</option><option value="CO">Colombia (COP)</option><option value="MX">Mexico (MXN)</option><option value="BR">Brazil (BRL)</option><option value="CL">Chile (CLP)</option></select></div>
+<div><label for="salary">Gross monthly salary (local currency)</label><input id="salary" name="salary" type="number" min="1" step="any" value="1500000" inputmode="decimal"></div>
+</div>
+<div data-only="AR"><label><input type="checkbox" name="large" checked> Employer is a large services/commerce company (20.40%); untick for MiPyME/other (18%)</label>
+<label for="art">ART work-risk insurance rate, % of payroll (from your insurer's quote; leave 0 if unknown)</label><input id="art" name="art" type="number" min="0" step="0.01" value="0"></div>
+<div data-only="CO" hidden><label><input type="checkbox" name="exempt" checked> Employer is a company that files income tax (exempt from health, SENA and ICBF for salaries under 10 SMMLV, ET art. 114-1)</label></div>
+<div data-only="MX" hidden><p class="small">Assumes first-year minimum benefits (15 days' aguinaldo, 12 vacation days, 25% premium) to build the IMSS contribution base, 2026 rates and bands, and the 25 UMA cap.</p>
+<label for="risk">Work-risk premium % (company-specific; 0.50 is the lowest rate in the IMSS table)</label><input id="risk" name="risk" type="number" min="0.5" max="15" step="0.00001" value="0.5">
+<label for="isn">State payroll tax (ISN) % (around 3 in Mexico City; set your state's rate)</label><input id="isn" name="isn" type="number" min="0" step="0.01" value="3"></div>
+<div data-only="BR" hidden><p class="small">Assumes the general tax regime (Lucro Presumido/Real); Simples Nacional employers pay differently and are not modelled.</p>
+<label for="rat">RAT % before FAP (1 light, 2 medium, 3 high risk by activity)</label><select id="rat" name="rat"><option>1</option><option selected>2</option><option>3</option></select>
+<label for="terc">Third-party contributions % (up to about 5.8 depending on FPAS code)</label><input id="terc" name="terc" type="number" min="0" max="5.8" step="0.1" value="5.8"></div>
+<div data-only="CL" hidden><label><input type="checkbox" name="grat" checked> Pay legal gratificación monthly under art. 50 (25%, capped)</label>
+<label><input type="checkbox" name="fixed"> Fixed-term or per-project contract (3% unemployment insurance instead of 2.4%)</label>
+<label for="mutual">Additional work-accident rate % from your mutual (0 to 3.4)</label><input id="mutual" name="mutual" type="number" min="0" max="3.4" step="0.01" value="0"></div>
+<noscript><p class="notice">The estimator needs JavaScript. The rates it uses are listed on each country page.</p></noscript>
+<div id="calc-out" aria-live="polite"></div>
+</form>
+<p class="small">Each country's assumptions are listed on its page: <a href="/contratarlatam/countries/argentina/">Argentina</a>, <a href="/contratarlatam/countries/brazil/">Brazil</a>, <a href="/contratarlatam/countries/chile/">Chile</a>, <a href="/contratarlatam/countries/colombia/">Colombia</a>, <a href="/contratarlatam/countries/mexico/">Mexico</a>.</p>
+<h2>What's here</h2>
+<div class="grid">
+<div class="card"><h3><a href="/contratarlatam/providers/">EOR provider comparison</a></h3><p>Published starting prices, each with its source link and date.</p></div>
+<div class="card"><h3><a href="/contratarlatam/countries/argentina/">Country cost guides</a></h3><p>Employer contributions, 13th-month pay, vacation and severance rules for <a href="/contratarlatam/countries/argentina/">Argentina</a>, <a href="/contratarlatam/countries/brazil/">Brazil</a>, <a href="/contratarlatam/countries/chile/">Chile</a>, <a href="/contratarlatam/countries/colombia/">Colombia</a> and <a href="/contratarlatam/countries/mexico/">Mexico</a>.</p></div>
+<div class="card"><h3><a href="/contratarlatam/guides/eor-vs-contractor-argentina/">EOR or contractor?</a></h3><p>What changes for the company and the worker in Argentina.</p></div>
+</div>
+</div></main>
+<footer><div class="wrap">
+<p><a href="/contratarlatam/methodology/">Methodology &amp; disclosure</a> · <a href="/contratarlatam/get-listed/">Get listed</a> · <a href="/contratarlatam/guides/eor-vs-contractor-argentina/">EOR vs contractor (Argentina)</a> · <a href="/contratarlatam/compare/deel-vs-rippling/">Deel vs Rippling</a></p>
+<p>Independent comparison site. We may earn a commission from some links. Nothing here is legal or tax advice. Figures are dated and sourced; verify with the provider or an adviser before deciding.</p>
+</div></footer>
+<script src="/contratarlatam/assets/js/calc.js"></script>
+<script src="/contratarlatam/assets/js/app.js"></script>
+</body></html>
